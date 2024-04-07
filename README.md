@@ -2,11 +2,16 @@
 
 This web app is Samuel Himmelstrups attempt to show potential future colleagues at Good Tape that he knows how to code.
 It can fetch ten random top stories from HackerNews.
-It can even fetch ten random top stories again
+It can even refetch ten random top stories from HackerNews.
 
 ## Try it out
 
 - Clone the repo
+
+```shellscript
+git clone https://github.com/samuelhimmelstrup/good-tape-test.git
+```
+
 - Install packages
 
 ```shellscript
@@ -26,15 +31,13 @@ I am using Promise.all to execute the fetch calls in parallel, thereby enhancing
 
 I have used Tailwind for styling, and framer motion to add that ubiquitous scroll animation
 
-As an extracurricular I have implemented fetching of ten new random posts.
+As an extracurricular I have implemented fetching of ten new random post ("Show me some other stories").
 For this I have used Remix's action function pattern.
-This could also be done client-side, if we for example had to ensure that no duplicate posts were fetched
+This could be done client-side, if we for example had to ensure that no duplicate posts were fetched.
 
 ## Prototype
 
 I have also included a simple prototype of an Named Entity Recognition (NER) feature, which could help users with anonymization and GDRP compliance.
-
-Go to /prototype to check it out
 
 The genereal idea is that:
 
@@ -48,6 +51,6 @@ This is just a quick prototype that makes use of mock data, and does not support
 
 For the real implementation I would handle the NER processing with spaCy
 
-## Btw
+## Btw (ideas that popped up)
 
 - Good Tapes existing edit feature should be able to find and replace (in case Whisper consequently mis-transcribes a word)
