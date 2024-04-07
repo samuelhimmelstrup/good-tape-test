@@ -18,11 +18,18 @@ h1 {
 }
 
 .badge-custom {
-  @apply text-white text-xs px-2 py-1 rounded-full bg-gt_purple
+  @apply text-white text-xs px-2 py-1 rounded-full bg-gt_purple;
+}
+
+.card-transcript {
+  @apply flex flex-col px-4 py-3 cursor-pointer;
+  @apply hover:duration-75 relative transform-gpu sm:active:scale-[0.98];
+  @apply rounded-lg bg-white;
+  @apply shadow-[0_2px_20px_#9225FF11] hover:shadow-[0_2px_20px_#9225FF11];
 }
 
 .spinner {
-  @apply animate-spin rounded-full h-8 w-8 border-4 border-gt_purple_dark border-t-transparent
+  @apply animate-spin rounded-full h-8 w-8 border-4 border-gt_purple_dark border-t-transparent;
 }
 
 @keyframes spin {
