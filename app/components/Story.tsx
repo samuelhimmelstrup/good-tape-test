@@ -41,7 +41,7 @@ export const Story = ({ story, author }: Props) => {
         <p className='text-gray-500 mt-2'>
           Author:{' '}
           <button
-            className='text-blue-500 hover:text-blue-400 transition-colors'
+            className='text-gt_purple hover:text-gt_purple_dark transition-colors'
             onClick={(e) => {
               e.stopPropagation();
               openAuthorUrl(author.id);

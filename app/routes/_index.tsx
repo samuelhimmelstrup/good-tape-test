@@ -30,10 +30,10 @@ export default function Index() {
   const isLoading = navigation.state !== 'idle';
 
   return (
-    <div className='flex flex-col items-center h-screen w-screen mt-20'>
-      <div className='w-200 '>
+    <div className='flex flex-col items-center h-screen w-screen mt-20 sm:mt-5'>
+      <div className='w-[min(100vw,500px)] px-4'>
         <div className='flex flex-col items-center w-100% mb-8'>
-          <h1 className='mb-5'>Random popular stories</h1>
+          <h1 className='mb-5 text-center'>Random popular stories</h1>
 
           <Form method='post'>
             <button type='submit' className='btn-custom' disabled={isLoading}>

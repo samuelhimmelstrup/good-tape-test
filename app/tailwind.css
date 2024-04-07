@@ -2,13 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
 h1 {
   @apply text-4xl font-bold my-2 text-purple-500;
 }
 
 .btn-custom {
   @apply inline-block rounded-full font-medium transition text-sm px-4 py-1;
-  @apply text-gray-50 bg-purple-500 hover:bg-purple-600 border border-purple-500 hover:border-purple-600 sm:text-base 
+  @apply text-gray-50 bg-gt_purple hover:bg-gt_purple_dark border border-gt_purple hover:border-gt_purple_dark sm:text-base 
 }
 
 .card-story {

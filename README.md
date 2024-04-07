@@ -1,6 +1,8 @@
-# Welcome to Samuel Himmelstrups attempt to solve the challenge put forth by Good Tape!
+# Random stories presented beautifully!
 
-This web app uses HackerNews API to fetch ten stories at random from the top stories.
+This web app is Samuel Himmelstrups attempt to show potential future colleagues at Good Tape that he knows how to code.
+It can fetch ten random top stories from HackerNews.
+It can even fetch ten random top stories again
 
 ## Try it out
 
@@ -16,3 +18,5 @@ npm install
 ```shellscript
 npm run dev
 ```
+
+## Thoughts

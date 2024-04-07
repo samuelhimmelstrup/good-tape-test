@@ -5,7 +5,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        goodTapePurple: '#8A22FF',
+        gt_purple: '#9730FF',
+        gt_purple_dark: '#9333ea',
       },
     },
   },
