@@ -47,6 +47,9 @@ module.exports = {
         "import/resolver": {
           typescript: {},
         },
+        rules: {
+          "react-hooks/exhaustive-deps": "off",
+        },
       },
     },
 

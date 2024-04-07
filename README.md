@@ -1,36 +1,18 @@
-# Welcome to Remix + Vite!
+# Welcome to Samuel Himmelstrups attempt to solve the challenge put forth by Good Tape!
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.
+This web app uses HackerNews API to fetch ten stories at random from the top stories.
 
-## Development
+## Try it out
 
-Run the Vite dev server:
+- Clone the repo
+- Install packages
+
+```shellscript
+npm install
+```
+
+- Run the dev server with
 
 ```shellscript
 npm run dev
 ```
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
