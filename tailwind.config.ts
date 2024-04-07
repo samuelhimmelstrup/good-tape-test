@@ -7,6 +7,7 @@ export default {
       colors: {
         gt_purple: '#9730FF',
         gt_purple_dark: '#9333ea',
+        gt_purple_darker: '#7528BB'
       },
     },
   },

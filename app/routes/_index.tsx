@@ -37,7 +37,7 @@ export default function Index() {
 
           <Form method='post'>
             <button type='submit' className='btn-custom' disabled={isLoading}>
-              Get more
+              Try again
             </button>
           </Form>
         </div>

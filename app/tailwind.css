@@ -4,7 +4,7 @@
 
 
 h1 {
-  @apply text-4xl font-bold my-2 text-purple-500;
+  @apply text-4xl font-bold my-2 text-gt_purple;
 }
 
 .btn-custom {
@@ -18,11 +18,11 @@ h1 {
 }
 
 .badge-custom {
-  @apply text-white text-xs px-2 py-1 rounded-full bg-purple-500
+  @apply text-white text-xs px-2 py-1 rounded-full bg-gt_purple
 }
 
 .spinner {
-  @apply animate-spin rounded-full h-8 w-8 border-4 border-blue-500 border-t-transparent
+  @apply animate-spin rounded-full h-8 w-8 border-4 border-gt_purple_dark border-t-transparent
 }
 
 @keyframes spin {
