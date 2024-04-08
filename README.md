@@ -24,12 +24,12 @@ npm install
 npm run dev
 ```
 
-## What I have created
+## What I have created and how
+A simple web app that can fetch and refetch ten random stories from Hacker News' top stories.
 
-I am using Remix's loader function to fetch all the data server-side.
-I am using Promise.all to execute the fetch calls in parallel, thereby enhancing performance
-
-I have used Tailwind for styling, and framer motion to add that ubiquitous scroll animation
+I am using Remix's loader function to fetch all the data server-side before rendering.
+I am using Promise.all to execute the fetch calls in parallel, thereby enhancing performance.
+I have used Tailwind for styling, and framer motion to add that ubiquitous scroll animation.
 
 As an extracurricular I have implemented fetching of ten new random post ("Show me some other stories").
 For this I have used Remix's action function pattern.
