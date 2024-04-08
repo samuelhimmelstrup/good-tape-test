@@ -37,11 +37,11 @@ This could be done client-side, if we for example had to ensure that no duplicat
 
 ## Prototype
 
-I have also included a simple prototype of an Named Entity Recognition (NER) feature, which could help users with anonymization and GDRP compliance.
+I have also included a simple prototype of a Named Entity Recognition (NER) feature, which could help users with anonymization and GDRP compliance.
 
 The genereal idea is that:
 
-- we use a NER model to find all named entities (or perhaps just enitites of the types that the user wants to see).
+- we use a NER model to find all named entities (or perhaps just entities of the types that the user wants to see).
 - we present the entities to the user, with the option to provide an alias for each
 - we can then apply these changes in the entire transcript
 - user can now download an anonymized transcript
@@ -49,7 +49,13 @@ The genereal idea is that:
 
 This is just a quick prototype that makes use of mock data, and does not support making actual changes to the transcript
 
-For the real implementation I would handle the NER processing with spaCy
+For the real implementation I would:
+
+- handle the NER processing with spaCy in the Python backend
+- think the UX through. Low hanging fruits are:
+  - The entities should probably be grouped into the four categories for a better overview
+  - The headers should say "People" instead of "PER" and so on
+- look into ways of integrating this feature into the existing edit feature. This way the UI won't be cluttered with options.
 
 ## Btw (ideas that popped up)
 
